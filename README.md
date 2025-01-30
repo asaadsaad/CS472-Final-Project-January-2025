@@ -7,8 +7,8 @@ Description: Create a contacts management app where users can store and manage t
 * Add a Speed Dial feature to bookmark important contacts, that will always appear on top of the contacts list.
 * Search contacts by name, implement a real-time search filter that updates the contact list as the user types (filter contacts at frontend). 
 * Enable users to export all contacts as `.vcf` files (vCard format) and download all exported `.vcf` files as a single compressed `.zip` file:
-  * Use the `vcf` library to create `.vcf` files.
-  * Use the `archiver` library to create `.zip` files.
+  * Use the [`vcf`](https://www.npmjs.com/package/vcf) library to create `.vcf` files.
+  * Use the [`archiver`](https://www.npmjs.com/package/archiver) library to create `.zip` files.
 
 ## API Endpoints:
 * `GET /contacts`: Fetch all contacts.
@@ -35,7 +35,7 @@ React for the frontend, Express for the backend, and Node filesystem for data pe
 * Use React Router for navigation between pages.
 * Leverage TailwindCSS for quick and responsive styling.
 * Use Express API endpoints to handle CRUD operations and interact with the filesystem.
-* Validate user inputs on both the frontend and backend to ensure data integrity. (Use `Zod`)
+* Validate user inputs on both the frontend and backend to ensure data integrity. (Use [`Zod`](https://www.npmjs.com/package/zod))
 
 ## Bonus (2 extra points)
 * Deploy the frontend on a service like Netlify, Vercel, or any other similar service.
