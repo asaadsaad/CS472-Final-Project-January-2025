@@ -1,5 +1,5 @@
 ## CS472 Final Project January 2025: Contacts Manager Application
-Description: Create a contacts management app where users can store and manage their contacts. Use the Node filesystem to store contact details (name, phone, email, etc.) in JSON files.
+Description: Create a contacts management app where users can store and manage their contacts. Use the Node filesystem to store contact details (name, phone, email, etc.) in JSON file.
 
 ## Features:
 * Add, edit, and delete contacts. Store contacts in a JSON file using the Node filesystem.
