@@ -5,8 +5,9 @@ Description: Create a contacts management app where users can store and manage t
 * Add, edit, and delete contacts. Store contacts in a JSON file using the Node filesystem.
   * Use the [`uuid`](https://www.npmjs.com/package/uuid) library to generate a unique `id`.
 * View a list of all contacts with details.
-* Add a Speed Dial feature to bookmark important contacts, that will always appear on top of the contacts list.
-* Search contacts by name, implement a real-time search filter that updates the contact list as the user types (filter contacts at frontend). 
+* Add a feature to bookmark important contacts, that will always appear on top of the contacts list.
+* Search contacts by name, implement a real-time search filter that updates the contact list as the user types (filter contacts at frontend).
+* Create a fast-filter feature by the first letter of contact name, display all English alphabets on top, when clicked, filter the contacts accordingly.
 * Enable users to export all contacts as `.vcf` files (vCard format) and download all exported `.vcf` files as a single compressed `.zip` file:
   * Use the [`vcf`](https://www.npmjs.com/package/vcf) library to create `.vcf` files.
   * Use the [`archiver`](https://www.npmjs.com/package/archiver) library to create `.zip` files.
