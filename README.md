@@ -14,10 +14,10 @@ Description: Create a contacts management app where users can store and manage t
 
 ## API Endpoints:
 * `GET /contacts`: Fetch all contacts.
-* `GET /contacts?export=1`: An optional `?export=true` query will export all contacts as `.vcf` files, compress and download as a `.zip` file.
 * `POST /contacts`: Add a new contact.
 * `PATCH /contacts/:id`: Update an existing contact.
 * `DELETE /contacts/:id`: Delete a contact.
+* `GET /contacts/export`: Export all contacts as `.vcf` files, compress and download as a `.zip` file.
 
 ## File-Based Storage `contacts.json`:
 ```typescript
@@ -39,11 +39,6 @@ React for the frontend, Express for the backend, and Node filesystem for data pe
 * Use Express API endpoints to handle CRUD operations and interact with the filesystem.
 * Validate user inputs on both the frontend and backend to ensure data integrity. (Use [`Zod`](https://www.npmjs.com/package/zod))
 
-## Bonus (2 extra points)
-* Deploy the frontend on a service like Netlify, Vercel, or any other similar service.
-* Deploy the backend on a service like Heroku, Render, or any other similar service.
-* Provide links to the deployed applications.
-
 ## Evaluation Criteria
 * Does the application meet all specified requirements?
 * Are all features implemented and working correctly?
@@ -61,7 +56,7 @@ React for the frontend, Express for the backend, and Node filesystem for data pe
 Feel free to contact me any day between 10:00 AM to 12:00 PM, and 2:00 PM to 5:00 PM, except for Sunday. I’m available to assist all teams with all kinds of requests (system design, backend, frontend, fixing code bugs.. etc). The project is a learning experience and I want everyone to finish the project successfully and meet the course learning outcomes.
 
 ## Final Evaluation 
-* The submission deadline is on Wednesday at 9:00 PM. Teams are expected to submit a screen recorded video that demonstrate the project features, and how to use the system. Do not show or explain your code patterns. Please send me the video URL on Teams. I might invite you to a meeting after the final exam to discuss your project if needed.
+* The submission deadline is on Wednesday at 9:00 PM. Students are expected to submit a screen recorded video that demonstrate the project features, and how to use the system. Do not show or explain your code patterns. Please send me the video URL via a message on Teams. I might invite you to a meeting after the final exam to discuss your project if needed.
 * It's advised that you submit your code on Wednesday morning, and prepare for your final exam.
 * Your final exam will be on Thursday, from 10:00 AM to 12:00 PM, in the M115 classroom. Time management is key, finish your project early to allow time for exam preparation.
 
