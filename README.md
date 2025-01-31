@@ -2,7 +2,8 @@
 Description: Create a contacts management app where users can store and manage their contacts. Use the Node filesystem to store contact details (name, phone, email, etc.) in JSON files.
 
 ## Features:
-* Add, edit, and delete contacts. Store contacts in a JSON file using the Node filesystem. 
+* Add, edit, and delete contacts. Store contacts in a JSON file using the Node filesystem.
+  * Use the [`uuid`](https://www.npmjs.com/package/uuid) library to generate a unique `id`.
 * View a list of all contacts with details.
 * Add a Speed Dial feature to bookmark important contacts, that will always appear on top of the contacts list.
 * Search contacts by name, implement a real-time search filter that updates the contact list as the user types (filter contacts at frontend). 
@@ -21,11 +22,11 @@ Description: Create a contacts management app where users can store and manage t
 ```typescript
 [
   {
-    "id": 1,
-    "name": "John Doe",
+    "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+    "name": "Asaad Saad",
     "phone": "123-456-7890",
-    "email": "john@example.com",
-    "bookmark": false
+    "email": "asaad@miu.edu",
+    "bookmarked": false
   }
 ]
 ```
